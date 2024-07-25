@@ -1,0 +1,87 @@
+html{
+    background-image: url(../images/Group\ 2.png);
+    font-family: "Roboto", sans-serif;
+    background-repeat: repeat-x;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+.container{
+margin-left: 50px;
+margin-top: 146px;
+display: flex;
+min-width: 800px;
+min-height: 402px;
+
+}
+
+.titulo{
+width: 500px;
+height: 111px;
+ font-size: 20px;
+ font-weight: 900;
+ color: #FFFFFF;
+}
+
+.titulo p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 378px;
+    height: 500px;
+    margin-left: 1200px;
+    background-color:  #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    
+}
+
+textarea{
+border-radius: 5px;
+border: solid 1px #F52E2E
+}
+
+input{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px #F52E2E;
+    
+}
+
+.btn{
+    width: 300px;
+    height: 41px;
+    background-color:  #3bcc87;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}  
+
+.mensagem-erro{
+   display: none;
+    color: #f52e2e;
+}
+
+.mensagem-erro-aparecer{
+    display: block;
+    color: #f52e2e;
+}
+
+.campo-preenchido{
+    border: 2px solid #00c22b;
+}
+
+.campo-vazio{
+    border: 2px solid #f52e2e;
+}
+
